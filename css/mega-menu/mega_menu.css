@@ -1,6 +1,3 @@
-/* GOOGLE FONT */
-
-/* MENU BASIC LAYOUT */
 .mega-menu {
   margin: 0 auto;
   padding: 0;
@@ -144,14 +141,13 @@
   margin: auto 0;*/
 }
 .mega-menu .menu-links {
-  /*---------------------------------------- MENU LINKS */
   margin: 0;
   padding: 0;
   display: block;
   float: right;
 }
 @media screen and (max-width: 992px) {
-  .mega-menu .menu-links { width: 100%; background: #fff; position: absolute; top: 77px; left: 0;  }
+  .mega-menu .menu-links { width: 100%; background: #fff; position: absolute; top: 93px; left: 0;  }
 #header.topbar-dark .mega-menu .menu-links{top: 0;}
 #header.topbar-dark .mega-menu hr{border: none;}
 }
@@ -162,14 +158,13 @@
     overflow: visible !important;
   }
   .mega-menu .menu-links.menu-links-align-right {
-    /*------------------------------------------ MENU LINKS ALIGN RIGHT */
     float: right;
   }
 }
 .mega-menu .menu-links > li {
   margin: 0;
   padding: 0;
-  display: block;
+  /*display: block;*/
   float: left;
   -webkit-transition: background-color 200ms ease;
           transition: background-color 200ms ease;
@@ -194,12 +189,10 @@
   }
 }
 .mega-menu .menu-links > li.active a {
-  /*------------------------------------- ACTIVE CLASS MENU LINKS */
  background-color: transparent;
  color: #FFB540;
 }
 .mega-menu .menu-links > li:hover {
-  /*-------------------------------------- HOVER MENU LINKS */
   background-color: transparent;
   color: #FFB540;
 }
@@ -229,7 +222,6 @@
   }
 }
 .mega-menu .menu-links > li > a i.fa {
-  /*---------------------------------------------------- MENU LINKS ICONS*/
   font-size: 1em;
   line-height: 0.8125em;
   padding-right: 2px;
@@ -251,7 +243,6 @@
   }
 }
 .mega-menu .menu-social-bar {
-  /*---------------------------------------------- MENU SOCIAL BAR */
   margin: 0;
   display: block;
   float: left;
@@ -328,7 +319,6 @@
   line-height: 50px;
 }
 .mega-menu .menu-search-bar {
-  /*--------------------------------------------------- MENU SEARCH BAR */
   margin: 0;
   padding: 0;
   display: block;
@@ -425,7 +415,6 @@
   }
 }
 .mega-menu .menu-mobile-collapse-trigger {
-  /*------------------------------------------------------ MOBILE COLLAPSE TRIGGER BUTTON */
   margin: 0;
   padding: 0;
   height: 50px;
@@ -495,7 +484,6 @@
   }
 }
 .mega-menu .drop-down-multilevel {
-  /*-------------------------------------------------- DROP DOWN MULTILEVEL */
   margin: 0;
   padding: 0;
   display: block;
@@ -630,13 +618,11 @@
   }
 }
 .mega-menu .drop-down-multilevel .drop-down-multilevel {
-  /*------------------------------------------------------ SECOND LEVEL */
   left: 100%;
   top: 0;
 }
 @media screen and (min-width: 993px) {
   .mega-menu .drop-down-multilevel .drop-down-multilevel.left-side {
-    /*--------------------------------------------------- ALIGN SECOND LEVEL DROP DOWN LEFT SIDE */
     left: -100%;
   }
 }
@@ -648,7 +634,6 @@
 }
 .mega-menu .drop-down,
 .mega-menu .drop-down-tab-bar {
-  /*--------------------------------------------------------- GRID DROP DOWN */
   position: absolute;
   left: auto;
   top: auto;
@@ -660,7 +645,6 @@
   display: block;
   cursor: default;
   overflow: hidden;
-  /*-------------------------------------------------------- 12 COLUMNS FLUID GRID WITH NESTED COLUMNS */
 }
 .mega-menu .drop-down *,
 .mega-menu .drop-down-tab-bar * {
@@ -872,7 +856,6 @@
 
 .mega-menu .drop-down .space-0,
 .mega-menu .drop-down-tab-bar .space-0 {
-  /*--------------------------------------------------------- SPACE 0 CLASS */
   padding: 0 !important;
   margin: 0 !important;
 }
@@ -1312,7 +1295,6 @@
 @media screen and (min-width: 993px) {
   .mega-menu .drop-down.offset-1,
   .mega-menu .drop-down-tab-bar.offset-1 {
-    /*------------------------------------------- OFFSET CLASSES FOR DROP DOWN */
     margin-left: 100px;
   }
   .mega-menu .drop-down.offset-2,
@@ -1335,7 +1317,6 @@
 
 .mega-menu .drop-down .menu-contact-form,
 .mega-menu .drop-down-tab-bar .menu-contact-form {
-  /*------------------------------------------------------- MENU CONTACT FORM */
   margin: 0;
   display: block;
   float: left;
@@ -1345,7 +1326,6 @@
 }
 
 .mega-menu .mobileTriggerButton {
-  /*---------------------------------------------------- MOBILE CLICK TRIGGER JQUERY DIV */
   margin: 0;
   padding: 0;
   position: absolute;
@@ -1364,7 +1344,6 @@
 }
 
 .mega-menu .desktopTriggerButton {
-  /*--------------------------------------------------- DESKTOP CLICK TRIGGER JQUERY DIV */
   margin: 0;
   padding: 0;
   position: absolute;
@@ -1400,7 +1379,8 @@
     margin: 0px;
   }
   .mega-menu.desktopTopFixed .menu-list-items .menu-logo > li > a img {
-    height: 40px;
+    height: 30px;
+    top: 3px;
     padding-top: 0px;
     /*margin: 15px 0px;*/
     /*width: 75%;*/
@@ -1412,7 +1392,6 @@
 
 @media screen and (max-width: 992px) {
   .mega-menu.mobileTopFixed .menu-list-items {
-    /*--------------------------------------------------------- TOP FIXED FOR MOBILE */
     position: fixed;
     top: 0;
     left: 0;
@@ -1422,7 +1401,6 @@
 }
 
 .mega-menu .drop-down-tab-bar {
-  /*----------------------------------------------------------- DROP DOWN TAB BAR */
   margin: 0;
   padding: 10px;
   float: left;
@@ -1486,7 +1464,6 @@
   .mega-menu .menu-links li.ClickTrigger .drop-down.effect-scale,
   .mega-menu .menu-links li.ClickTrigger .drop-down-tab-bar.effect-scale,
   .mega-menu .menu-links li.ClickTrigger .drop-down-multilevel.effect-scale {
-    /*--------------------------------------------- effect scale */
     -webkit-transform: scale(0.8);
         -ms-transform: scale(0.8);
             transform: scale(0.8);
@@ -1497,7 +1474,6 @@
   .mega-menu .menu-links li.ClickTrigger .drop-down.effect-expand-top,
   .mega-menu .menu-links li.ClickTrigger .drop-down-tab-bar.effect-expand-top,
   .mega-menu .menu-links li.ClickTrigger .drop-down-multilevel.effect-expand-top {
-    /*--------------------------------------------- effect expand top*/
     -webkit-transform: rotateX(90deg);
             transform: rotateX(90deg);
     -webkit-transform-origin: 0 0;
@@ -1510,7 +1486,6 @@
   .mega-menu .menu-links li.ClickTrigger .drop-down.effect-expand-bottom,
   .mega-menu .menu-links li.ClickTrigger .drop-down-tab-bar.effect-expand-bottom,
   .mega-menu .menu-links li.ClickTrigger .drop-down-multilevel.effect-expand-bottom {
-    /*--------------------------------------------- effect expand bottom*/
     -webkit-transform: rotateX(90deg);
             transform: rotateX(90deg);
     -webkit-transform-origin: 0 100%;
@@ -1523,7 +1498,6 @@
   .mega-menu .menu-links li.ClickTrigger .drop-down.effect-expand-left,
   .mega-menu .menu-links li.ClickTrigger .drop-down-tab-bar.effect-expand-left,
   .mega-menu .menu-links li.ClickTrigger .drop-down-multilevel.effect-expand-left {
-    /*--------------------------------------------- effect expand left*/
     -webkit-transform: rotateY(90deg);
             transform: rotateY(90deg);
     -webkit-transform-origin: 0 0;
@@ -1536,7 +1510,6 @@
   .mega-menu .menu-links li.ClickTrigger .drop-down.effect-expand-right,
   .mega-menu .menu-links li.ClickTrigger .drop-down-tab-bar.effect-expand-right,
   .mega-menu .menu-links li.ClickTrigger .drop-down-multilevel.effect-expand-right {
-    /*--------------------------------------------- effect expand right*/
     -webkit-transform: rotateY(90deg);
             transform: rotateY(90deg);
     -webkit-transform-origin: 100% 0;
@@ -1558,7 +1531,6 @@
   .mega-menu .menu-links li.ClickTrigger .drop-down.active.effect-fade,
   .mega-menu .menu-links li.ClickTrigger .drop-down-tab-bar.active.effect-fade,
   .mega-menu .menu-links li.ClickTrigger .drop-down-multilevel.active.effect-fade {
-    /*------------------------------------------- DROP DOWN EFFECTS :::: fade-effect */
     opacity: 1;
     visibility: visible;
   }
@@ -1568,7 +1540,6 @@
   .mega-menu .menu-links li.ClickTrigger .drop-down.active.effect-scale,
   .mega-menu .menu-links li.ClickTrigger .drop-down-tab-bar.active.effect-scale,
   .mega-menu .menu-links li.ClickTrigger .drop-down-multilevel.active.effect-scale {
-    /*--------------------------------------------- effect scale */
     opacity: 1;
     visibility: visible;
     -webkit-transform: scale(1);
@@ -1581,7 +1552,6 @@
   .mega-menu .menu-links li.ClickTrigger .drop-down.active.effect-expand-top,
   .mega-menu .menu-links li.ClickTrigger .drop-down-tab-bar.active.effect-expand-top,
   .mega-menu .menu-links li.ClickTrigger .drop-down-multilevel.active.effect-expand-top {
-    /*--------------------------------------------- effect expand top*/
     opacity: 1;
     visibility: visible;
     -webkit-transform: rotateX(0deg);
@@ -1593,7 +1563,6 @@
   .mega-menu .menu-links li.ClickTrigger .drop-down.active.effect-expand-bottom,
   .mega-menu .menu-links li.ClickTrigger .drop-down-tab-bar.active.effect-expand-bottom,
   .mega-menu .menu-links li.ClickTrigger .drop-down-multilevel.active.effect-expand-bottom {
-    /*--------------------------------------------- effect expand bottom*/
     opacity: 1;
     visibility: visible;
     -webkit-transform: rotateX(0deg);
@@ -1605,7 +1574,6 @@
   .mega-menu .menu-links li.ClickTrigger .drop-down.active.effect-expand-left,
   .mega-menu .menu-links li.ClickTrigger .drop-down-tab-bar.active.effect-expand-left,
   .mega-menu .menu-links li.ClickTrigger .drop-down-multilevel.active.effect-expand-left {
-    /*--------------------------------------------- effect expand left*/
     opacity: 1;
     visibility: visible;
     -webkit-transform: rotateY(0deg);
@@ -1617,7 +1585,6 @@
   .mega-menu .menu-links li.ClickTrigger .drop-down.active.effect-expand-right,
   .mega-menu .menu-links li.ClickTrigger .drop-down-tab-bar.active.effect-expand-right,
   .mega-menu .menu-links li.ClickTrigger .drop-down-multilevel.active.effect-expand-right {
-    /*--------------------------------------------- effect expand right */
     opacity: 1;
     visibility: visible;
     -webkit-transform: rotateY(0deg);
@@ -1637,7 +1604,6 @@
 @media screen and (min-width: 993px) {
   .mega-menu.vertical-left,
   .mega-menu.vertical-right {
-    /*----------------------------------------------------- VERTICAL LEFT OR VERTICAL RIGHT */
     float: left;
     width: auto;
     display: block;
@@ -1810,7 +1776,6 @@
 }
 @media screen and (min-width: 993px) {
   .mega-menu.menuFullWidth {
-    /*--------------------------------------------------- make menu full width */
     max-width: 100%;
   }
 }

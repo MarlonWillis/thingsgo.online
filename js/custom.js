@@ -1,25 +1,7 @@
-/*
-
-Template:
-Author: potenzaglobalsolutions.com
-Version:
-Design and Developed by: potenzaglobalsolutions.com
-
-NOTE:
-
-*/
-
-//Global var
 var POTENZA = {};
 
  (function($){
   "use strict";
-
-
-
-     //----------------------------------------------------/
-    // Predefined Variables
-    //----------------------------------------------------/
     var $window = $(window),
         $document = $(document),
         $body = $('body'),
@@ -41,46 +23,34 @@ var POTENZA = {};
        $('#loading').delay(0).fadeOut('slow');
    };
 
-
-/*************************
-       mega menu
-*************************/
  POTENZA.megaMenu = function () {
     $('#menu').megaMenu({
-           // DESKTOP MODE SETTINGS
-          logo_align          : 'left',         // align the logo left or right. options (left) or (right)
-          links_align         : 'left',        // align the links left or right. options (left) or (right)
-          socialBar_align     : 'left',    // align the socialBar left or right. options (left) or (right)
-          searchBar_align     : 'right',   // align the search bar left or right. options (left) or (right)
-          trigger             : 'hover',           // show drop down using click or hover. options (hover) or (click)
-          effect              : 'fade',             // drop down effects. options (fade), (scale), (expand-top), (expand-bottom), (expand-left), (expand-right)
-          effect_speed        : 400,          // drop down show speed in milliseconds
-          sibling             : true,              // hide the others showing drop downs if this option true. this option works on if the trigger option is "click". options (true) or (false)
-          outside_click_close : true,  // hide the showing drop downs when user click outside the menu. this option works if the trigger option is "click". options (true) or (false)
-          top_fixed           : false,           // fixed the menu top of the screen. options (true) or (false)
-          sticky_header       : true,       // menu fixed on top when scroll down down. options (true) or (false)
-          sticky_header_height: 250,  // sticky header height top of the screen. activate sticky header when meet the height. option change the height in px value.
-          menu_position       : 'horizontal',    // change the menu position. options (horizontal), (vertical-left) or (vertical-right)
-          full_width          : false,           // make menu full width. options (true) or (false)
-         // MOBILE MODE SETTINGS
+          logo_align          : 'left',
+          links_align         : 'left',
+          socialBar_align     : 'left',
+          searchBar_align     : 'right',
+          trigger             : 'hover',
+          effect              : 'fade',
+          effect_speed        : 400,
+          sibling             : true,
+          outside_click_close : true,
+          top_fixed           : false,
+          sticky_header       : true,
+          sticky_header_height: 100,
+          menu_position       : 'horizontal',
+          full_width          : false,
           mobile_settings     : {
-            collapse            : true,    // collapse the menu on click. options (true) or (false)
-            sibling             : true,      // hide the others showing drop downs when click on current drop down. options (true) or (false)
-            scrollBar           : true,    // enable the scroll bar. options (true) or (false)
-            scrollBar_height    : 400,  // scroll bar height in px value. this option works if the scrollBar option true.
-            top_fixed           : false,       // fixed menu top of the screen. options (true) or (false)
-            sticky_header       : false,   // menu fixed on top when scroll down down. options (true) or (false)
-            sticky_header_height: 200   // sticky header height top of the screen. activate sticky header when meet the height. option change the height in px value.
+            collapse            : true,
+            sibling             : true,
+            scrollBar           : true,
+            scrollBar_height    : 400,
+            top_fixed           : false,
+            sticky_header       : false,
+            sticky_header_height: 100
          }
        });
 
 }
-
-
-
-/*************************
-       owl-carousel
-*************************/
 
  POTENZA.carousel = function () {
 
@@ -114,12 +84,6 @@ var POTENZA = {};
     });
 }
 
-
-
-/*************************
-       counter
-*************************/
-
   POTENZA.counters = function () {
           if ($counter.exists()) {
               $counter.each(function () {
@@ -131,10 +95,6 @@ var POTENZA = {};
           }
   };
 
-
-/*************************
-      Accordion
-*************************/
   POTENZA.accordion = function () {
      var   $acpanel = $(".accordion .acd-group > .acd-des"),
            $acsnav = $(".accordion .acd-group > .acd-heading");
@@ -151,10 +111,6 @@ var POTENZA = {};
         });
   }
 
-
-/*************************
-         isotope
-*************************/
  POTENZA.Isotope = function () {
       var $isotope = $(".isotope"),
           $itemElement = '.grid-item',
@@ -176,9 +132,6 @@ var POTENZA = {};
     }
  }
 
-/*************************
-         masonry
-*************************/
   POTENZA.masonry = function () {
         var $masonry = $('.masonry .masonry'),
             $itemElement = '.masonry .masonry-item';
@@ -193,10 +146,6 @@ var POTENZA = {};
             }
   }
 
-
-  /*************************
-       Magnific Popup
-*************************/
   POTENZA.mediaPopups = function () {
     if ($(".popup-gallery").exists()) {
           $('.popup-gallery').magnificPopup({
@@ -230,20 +179,14 @@ var POTENZA = {};
   }
 
 
-/*************************
-         countdown
-*************************/
   POTENZA.countdownTimer = function () {
       if ($countdownTimer.exists()) {
             $countdownTimer.downCount({
-                date: '10/05/2019 12:00:00',
+                date: '01/01/2022 00:00:00',
                 offset: 400
             });
       }
   };
-/*************************
-          Tabs
-*************************/
  POTENZA.tabs = function () {
        var $tabsdata = $("#tabs li[data-tabs]"),
            $tabscontent = $(".tabcontent"),
@@ -269,11 +212,6 @@ var POTENZA = {};
 
    }
 
-
-
-/*************************
-          sidemenu
-*************************/
 
  POTENZA.sidemenu = function () {
         var $menu_btn = $('.mobile-nav-button'),
@@ -313,11 +251,6 @@ var POTENZA = {};
             }
          }
  }
-
-/*************************
-          search
-*************************/
-
 
  POTENZA.search = function () {
     var $search_btn =  $('.search-trigger'),
@@ -360,9 +293,6 @@ var POTENZA = {};
    }
   }
 
-  /*************************
-       Progressbar
-*************************/
     POTENZA.progressBar = function () {
 
         if ($progressBar.exists()) {
@@ -395,9 +325,6 @@ var POTENZA = {};
             });
         }
     };
-    /*************************
-        Scroll #
-  *************************/
 
   $('.menu-links a[href^="#"]').on('click', function(e) {
   	e.preventDefault();
@@ -410,9 +337,6 @@ var POTENZA = {};
   });
 
 
-  /*************************
-      Scroll to Top
-*************************/
   POTENZA.scrolltotop = function () {
       var $scrolltop = $('.back-to-top');
 
@@ -441,9 +365,6 @@ var POTENZA = {};
 		});
   }
 
-  /*************************
-      Scroll to Bottom
-*************************/
 POTENZA.scrolltotop = function () {
     var $scrolltop = $('.contact-down');
 
@@ -465,9 +386,6 @@ POTENZA.scrolltotop = function () {
           }
      });
      }
-/*************************
-      sticky Footer
-*************************/
 
  POTENZA.stickyFooter = function () {
     var  $footerfixed = $("#footer-fixed");
@@ -478,9 +396,6 @@ POTENZA.scrolltotop = function () {
       };
 
 
- /*************************
-      Slick slider
-*************************/
   POTENZA.slickslider = function () {
       if ($(".slider-slick").exists()) {
           $('.slider-for').slick({
@@ -500,9 +415,6 @@ POTENZA.scrolltotop = function () {
       }
   }
 
-/*************************
-  Php Contact Form
-*************************/
 POTENZA.Contactform = function () {
   $( "#contactform").submit(function( event ) {
     $("#ajaxloader").show();
@@ -522,11 +434,6 @@ POTENZA.Contactform = function () {
   });
 }
 
-/****************************************************
-     POTENZA Window load and functions
-****************************************************/
-
-  //Window load functions
     $window.load(function () {
       POTENZA.preloader(),
       POTENZA.Isotope(),
@@ -535,8 +442,6 @@ POTENZA.Contactform = function () {
       POTENZA.masonry();
     });
 
-
-  //Document ready functions
     $document.ready(function () {
         POTENZA.megaMenu(),
         POTENZA.counters(),
