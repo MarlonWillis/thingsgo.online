@@ -188,7 +188,7 @@ Main Components --------------- ----------
 .cd-horizontal-timeline .events li a::after{
   content: '';
   position: absolute;
-  left: 50.5%;
+  left: 51%;
   right: auto;
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
