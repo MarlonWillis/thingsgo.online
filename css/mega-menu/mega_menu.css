@@ -33,6 +33,10 @@
   .mega-menu * {
     word-break: break-all;
   }
+  .button-white-paper {
+    top: 0!important;
+    margin: 10px 5px;
+  }
 }
 .mega-menu i.fa {
   /*----------------------------- FONT AWESOME ICONS */
