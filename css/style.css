@@ -65,8 +65,8 @@ select { width: 100%; background: #FFB540; border: 0px; padding: 15px 18px 15px 
 .page-section-pt { padding: 50px 0 0; }
 .page-section-pb { padding: 0 0 100px; }
 .mt-0 { margin-top: 0px; }
-.mt-1 { margin-top: 10px; }
-.mt-2 { margin-top: 20px; }
+.mt-1 { margin-top: 10px!important; }
+.mt-2 { margin-top: 20px!important; }
 .mt-3 { margin-top: 30px; }
 .mt-4 { margin-top: 40px; }
 .mt-5 { margin-top: 50px; }
@@ -643,7 +643,7 @@ ul.list-style-icon li span { color: #2046f2; padding-right: 15px; }
 .footer.light .copyright ul li a { color: #353535; }
 .footer.light .copyright ul li a:hover { color: #4d6bf5; }
 div#main { z-index: 1; position: relative; }
-.footer-dark { padding: 70px 0px 0px; }
+.footer-dark { padding: 71px 0px 0px; }
 .footer-dark { position: fixed; left: 0; bottom: 0; width: 100%; z-index: 0; }
 .footer-dark .footer-logo img { height: 50px; }
 .footer-dark .addresss-icon { float: left; font-size: 24px; margin-right: 20px; }
