@@ -685,6 +685,20 @@ div#main { z-index: 1; position: relative; }
   background-position-x: -150px;
   background-size: 400px;
 }
+.parallax-three {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-image: url(img/bg_roadmap.png);
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position-x: 120%;
+  background-size: 900px;
+}
 .feature-box-01 .feature-box-icon i { font-size: 36px; }
 .feature-box-01.round { padding: 0 20px; }
 .feature-box-01.round .feature-box-img { display: inline-block; background: #ffffff; box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1); width: 160px; height: 160px; border-radius: 90px; text-align: center; line-height: 160px; transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; }

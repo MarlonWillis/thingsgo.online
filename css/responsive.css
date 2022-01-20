@@ -28,6 +28,7 @@
 
     #header .topbar{font-size: 13px;}
 	.mega-menu .menu-links > li > a{font-size: 13px;}
+	.parallax-three { background-position-x:260%;	}
 
 }
 
@@ -259,6 +260,7 @@
 	.bottom-m3 { margin-bottom: 30px !important; }
 	ul.list-mark li { padding-left: 18px; }
 	.media-360 {margin-bottom: -50px!important;}
+	.parallax-three { background-position-x:-100%;	}
 
 	.intro-title .intro-content .intro-name{padding:70px 0px 70px 0px;}
 	.intro-title.dark .intro-content .intro-name{padding:70px 0px;}
@@ -392,6 +394,7 @@
 	.intro-title .intro-content .intro-name{padding:50px 0px 50px 0px;}
 	.intro-title.dark .intro-content .intro-name{padding:50px 0px;}
 	.col-half-offset {margin-left: 145px;}
+	.parallax-three { background-position-x:-40%;	}
 
 
 	.col-xx-12{width:100%;}
