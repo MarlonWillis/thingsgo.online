@@ -266,7 +266,7 @@ select { width: 100%; background: #FFB540; border: 0px; padding: 15px 18px 15px 
 .bg-overlay-blue-50:before { background: rgba(32, 70, 242, 0.5); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: -1; }
 .bg-overlay-blue-70:before { background: rgba(32, 70, 242, 0.7); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: -1; }
 .bg-overlay-blue-90:before { background: rgba(32, 70, 242, 0.9); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: -1; }
-.bg-gradient-color { background: rgb(63,141,204); background: linear-gradient(1deg,rgba(63,141,204,1) 0%, rgba(86,190,137,1) 100%); }
+.bg-gradient-color { background: rgb(63,141,204); background: linear-gradient(1deg,rgba(63,141,204,1) 15%, rgba(86,190,137,1) 100%); }
 .topbar { border-bottom: 1px solid rgba(255, 255, 255, 0.2); padding: 10px 0px; }
 .topbar li, .topbar li a { color: #ffffff; }
 .topbar-left li i { padding-right: 5px; }
