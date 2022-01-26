@@ -501,6 +501,7 @@ position: fixed; z-index: 2; height: 100%; width: 100%; top: 0; left: 0; cursor:
 #header.fancy .mega-menu .menu-links li.active .drop-down-multilevel li.active .drop-down-multilevel li.active a { color: #2046f2; }
 #header.fancy .mega-menu .menu-links li:hover .drop-down-multilevel li:hover .drop-down-multilevel li:hover a { color: #2046f2; }
 #header.fancy .mega-menu .menu-links li.active .drop-down-multilevel li .drop-down-multilevel li a { color: #353535; }
+.lottie-center {display: block;margin-left: auto;margin-right: auto;}
 .our-service .feature-box-01 { padding: 50px 40px; }
 /*.our-service .service-block {  margin: 5px; }*/
 .our-service .top-service .service-block { margin-top: 0px; }
