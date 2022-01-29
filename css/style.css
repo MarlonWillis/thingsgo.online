@@ -187,7 +187,7 @@ select { width: 100%; background: #FFB540; border: 0px; padding: 15px 18px 15px 
 .form-control::-webkit-input-placeholder { color: #aaaaaa; }
 .table-bordeblue>tbody>tr>td, .table-bordeblue>tbody>tr>th, .table-bordeblue>tfoot>tr>td, .table-bordeblue>tfoot>tr>th, .table-bordeblue>thead>tr>td, .table-bordeblue>thead>tr>th { border-color: #e0e0e0; padding: 12px 20px; }
 .button { font-family: 'ThingsGOregular', sans-serif; background: #3f8dcc; padding: 10px 30px; color: #ffffff; border: 2px solid #3f8dcc; box-shadow: 3px 3px #37D996; text-transform: initial; font-weight: 400; display: inline-block; border-radius: 12px; text-align: center; cursor: pointer;}
-.button:hover { background: #37D996; color: #ffffff; box-shadow: 3px 3px #3f8dcc; border: 2px solid #37D996; transition: 0.3s;}
+.button:hover { background: #37D996!important; color: #ffffff; box-shadow: 3px 3px #3f8dcc; border: 2px solid #37D996; transition: 0.3s;}
 .button.black { background: #353535; color: #ffffff; border: 2px solid #353535; border: 2px solid #353535; }
 .button.black:hover, .button.black.active { background: #FFB540; color: #ffffff; border-color: #FFB540; }
 .button.white { background: #fff; color: #2046f2; border: 2px solid #FFB540; }
