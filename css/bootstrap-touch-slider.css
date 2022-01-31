@@ -117,13 +117,13 @@
     padding: 0;
     width: 15px;
     height: 15px;
-    border: 1px solid rgb(158, 158, 158);
+    border: 1px solid rgba(63,141,204,1);
     text-indent: 0;
     overflow: hidden;
     text-align: left;
     position: relative;
     letter-spacing: 1px;
-    background: rgb(158, 158, 158);
+    background: rgba(255,255,255);
     -webkit-font-smoothing: antialiased;
     -webkit-border-radius: 50%;
     border-radius: 50%;
